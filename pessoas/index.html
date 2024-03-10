@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    input[type=number]::-webkit-inner-spin-button,
+       input[type=number]::-webkit-outer-spin-button {
+           -webkit-appearance: none;
+           margin: 0;
+       }
+   </style>
+  <title>Cadastro</title>
+</head>
+
+<body>
+  <form action="" method="">
+    <fieldset class="main">
+      <legend>Formulário de inscrição</legend>
+      <div class="nome">
+        <label for="nome">Nome:</label>
+        <input placeholder="Digite seu nome:" type="text" id="nome" name="usuario_nome" required />
+      </div>
+      <div class="email">
+        <label for="email">E-mail:</label>
+        <input placeholder="Digite seu email:" type="email" id="email" name="usuario_email" required />
+      </div>
+      <div class="telefone">
+        <label for="telefone">Telefone</label>
+        <input placeholder="(XX)XXXXX-XXXX" type="tel" name="telefone" required>
+      </div>
+      <div class="CPF">
+        <label for="CPF">CPF</label>
+        <input placeholder="Numero do seu CPF:" type="number" name="CPF" required>
+      </div>
+      <div class="nasc">
+        <label for="DataNascimento">Data de nascimento</label>
+        <input placeholder="Digite a data de seu nascimento:" type="date" name="data" required>
+      </div>
+      <div class="divAddress" >
+        <fieldset class="address">
+          <legend>Endereço</legend>
+          <div>
+            <label for="Rua">Rua:</label>
+            <input placeholder="Endereço:" type="text" name="rua" required>
+          </div>
+          <div>
+            <label for="numeroCasa">Numero</label>
+            <input placeholder="Numero da casa/apto" type="number" name="Numero" required>
+          </div>
+          <div>
+            <label for="complemento">Complemento</label>
+            <input placeholder="Complemento" type="text" name="Complemento" required>
+          </div>
+          <div>
+            <label for="bairro">Bairro</label>
+            <input placeholder="Bairro" type="text" name="bairro" required>
+          </div>
+          <div>
+            <label for="cidade">Cidade</label>
+            <input placeholder="Cidade" type="text" name="Cidade" required>
+          </div>
+          <div>
+            <label for="estado">Estado</label>
+            <input placeholder="Estado" type="text" name="Estado" required>
+          </div>
+        </fieldset>
+      </div>
+
+      <div class="button">
+        <button type="submit">Finalizar o cadastro</button>
+      </div>
+    </fieldset>
+
+
+
+
+  </form>
+
+</body>
+
+</html>
