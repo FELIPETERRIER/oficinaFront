@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="./script.js"></script> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+ 
+
+  <style>
+    input[type=number]::-webkit-inner-spin-button,
+       input[type=number]::-webkit-outer-spin-button {
+           -webkit-appearance: none;
+           margin: 0;
+       }
+   </style>
+  <title>Selecionar Usuario</title>
+</head>
+
+<body>
+  <label for="pessoa_tipo">Usuario: </label>
+
+  <select class="selecao" name="pessoa_tipo" id="pessoa_tipo" value>
+    
+    <option value="cliente" id="cliente">Cliente</option>
+    <option value="mecanico" id="mecanico">Mecanico</option>
+    <option value="gerente" id="gerente">Gerente</option>       
+  </select>
+    <button type="submit" onclick="escolheUsuario()">555555</button>
+</body>
+
+</html>
